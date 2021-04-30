@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "CoroVerify",
+    "slug": "CoroVerify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon.png",
+    "splash": {
+      "image": "./assets/img/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ownos.coroverify"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ownos.coroverify"
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    }
+  }
+}
